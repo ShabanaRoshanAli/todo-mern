@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "concurrently \"cd todo-app && npm start\" \"cd app_api && npm start\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.1"
+  }
+}
